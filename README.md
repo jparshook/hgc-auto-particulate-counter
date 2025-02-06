@@ -43,8 +43,6 @@ For automatic particulate counts, a PMSA003I sensor and microprocessor with wifi
     * *config.py*
         * initial setup can be adjusted as needed in this file, such as frequency of readings
         * **NEVER SHARE NETWORK INFORMATION ON GITHUB!**
-    * *helpers.py* under boards - timestamps adjusted for timezone
-    * *logging.py* under phew - timestamps adjusted for timezone
 * After modifying the files, run *main.py* in Thonny. Verify valid measurements.
 * Move the Enviro Urban to the 5V source.
 * The RPi can now receive the sensor readings from the Enviro Urban.
